@@ -1,0 +1,12 @@
+
+Paste-1.7.5.1-py2.7.egg
+PasteDeploy-1.5.0-py2.7.egg/ 
+*.pyc
+
+PasteDeploy-1.5.0-py2.7.egg/*
+
+
+PasteScript-*
+.DS_Store
+
+bda.controlpanel.egg-info
