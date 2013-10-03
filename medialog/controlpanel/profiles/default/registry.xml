@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <registry>
- <records interface="medialog.controlpanel.interfaces.ImMdialogControlpanelSettings">
+ <records interface="medialog.controlpanel.interfaces.IMedialogControlpanelSettings">
       <value key="test_field"></value>
  </records>
 </registry>

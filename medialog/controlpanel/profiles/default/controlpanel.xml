@@ -7,11 +7,11 @@
 
     <configlet
         title="medialog controlpanel"
-        action_id="medialogcontrolpanel"
+        action_id="medialog_controlpanel"
         appId="medialog.controlpanel"
         category="Products"
         condition_expr=""
-        url_expr="string:${portal_url}/@@medialogcontrolpanel-settings"
+        url_expr="string:${portal_url}/@@medialog_controlpanel"
         visible="True"
         i18n:attributes="title">
             <permission>Manage portal</permission>

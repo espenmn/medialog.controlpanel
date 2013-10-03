@@ -4,25 +4,23 @@
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="bda.controlpanel">
+    i18n_domain="medialog.controlpanel">
 
   <five:registerPackage package="." initialize=".initialize" />
   <include package="plone.app.registry" />
 
   <genericsetup:registerProfile
       name="default"
-      title="bda.controlpanel"
+      title="medialog.controlpanel"
       directory="profiles/default"
-      description="Installs the bda.controlpanel package"
+      description="Installs the medialog.controlpanel package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
     <!-- Control panel -->
-    <browser:page
-        name="bdacontrolpanel-settings"
-        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-        class=".controlpanel.BdaControlpanelSettingsControlPanel"
-        permission="cmf.ManagePortal"
-        />
-  
+  <browser:page
+  		name="medialog_controlpanel"
+    	for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    	class=".controlpanel.MedialogControlPanel"
+    permission="cmf.ManagePortal" />
 </configure>

@@ -16,14 +16,8 @@ class IMedialogControlpanelSettingsProvider(Interface):
 
 
 class IMedialogControlpanelSettings(form.Schema):
-    """MedialogControlpanel controlpanel schema.
+    """Medialog Controlpanel schema.
     """
 
-    test_field= schema.ASCIILine(
-        title=_(u"label_admin_email", default=u'Test field'),
-       description=_(u"help_admin_email",
-                      default=u'No typos please....'),
-        required=True,
-        default="")
 
     

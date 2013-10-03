@@ -2,5 +2,4 @@ Introduction
 ============
 
 
-
-This product may contain traces of nuts.
+This is a product to add all your site's configuration in the same control panel.
