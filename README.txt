@@ -77,3 +77,5 @@ Author:
 Espen Moe-Nilssen [espenmn]
 
 Some of the code is stolen (shamelessly) from Bluedynamics and Nathan van Gheem.
+
+PS: zedr also wanted to be mentioned.
