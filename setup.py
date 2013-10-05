@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.0.1'
 
 setup(name='medialog.controlpanel',
       version=version,
-      description="",
+      description="A pluggable control panel.",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -17,7 +17,7 @@ setup(name='medialog.controlpanel',
       keywords='',
       author='Espen Moe-Nilssen',
       author_email='espen@medialog.no',
-      url='http://svn.plone.org/svn/collective/',
+      url='https://github.com/espenmn/medialog.controlpanel',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['medialog'],
