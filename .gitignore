@@ -10,3 +10,4 @@ PasteScript-*
 .DS_Store
  
 medialog.controlpanel.egg-info
+*.gz
