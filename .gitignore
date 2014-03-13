@@ -11,3 +11,5 @@ PasteScript-*
  
 medialog.controlpanel.egg-info
 *.gz
+
+PasteDeploy-1.5.2-py2.7.egg/

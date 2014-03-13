@@ -61,7 +61,7 @@ Add a registry.xml field with the following content:
 
 ---------------------------------------------------------------------------
 
-?xml version="1.0"?>
+<?xml version="1.0"?>
 
 <registry>
  <records interface="my.product.interfaces.IMyProductSettings">
