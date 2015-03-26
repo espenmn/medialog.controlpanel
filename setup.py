@@ -26,6 +26,7 @@ setup(name='medialog.controlpanel',
       install_requires=[
           'setuptools',
            'plone.app.registry',
+           'plone.directives.form',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
