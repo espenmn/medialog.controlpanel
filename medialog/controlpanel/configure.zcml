@@ -19,8 +19,8 @@
 
     <!-- Control panel -->
   <browser:page
-  		name="medialog_controlpanel"
-    	for="Products.CMFPlone.interfaces.IPloneSiteRoot"
-    	class=".controlpanel.MedialogControlPanel"
+  	name="medialog_controlpanel"
+    for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+    class=".controlpanel.MedialogControlPanel"
     permission="cmf.ManagePortal" />
 </configure>
