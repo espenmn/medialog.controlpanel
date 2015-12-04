@@ -1,4 +1,8 @@
 recursive-include medialog *
 recursive-include docs *
+recursive-exclude Paste-2.0.2-py2.7
+
 global-exclude *pyc
 global-exclude *mo
+global-exclude *pyc
+global-exclude *egg

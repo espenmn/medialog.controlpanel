@@ -2,6 +2,7 @@
 Paste-1.7.5.1-py2.7.egg
 PasteDeploy-1.5.0-py2.7.egg/ 
 *.pyc
+*.egg
 
 PasteDeploy-1.5.0-py2.7.egg/*
 
@@ -13,3 +14,4 @@ medialog.controlpanel.egg-info
 *.gz
 
 PasteDeploy-1.5.2-py2.7.egg/
+Paste-2.0.2-py2.7.egg/paste/__init__.py
