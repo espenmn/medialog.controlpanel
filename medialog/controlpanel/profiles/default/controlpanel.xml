@@ -6,7 +6,7 @@
     purge="False">
 
     <configlet
-        title="medialog controlpanel"
+        title="Add-ons controlpanel"
         action_id="medialog_controlpanel"
         appId="medialog.controlpanel"
         category="Products"
