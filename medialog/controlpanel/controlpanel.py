@@ -49,7 +49,7 @@ class ContextProxy(object):
 
 class MedialogControlpanelSettingsEditForm(controlpanel.RegistryEditForm):
     schema = IMedialogControlpanelSettings
-    label = _(u"Medialog Controlpanel")
+    label = _(u"Add-ons Controlpanel")
     description = _(u"")
 
     def getContent(self):
