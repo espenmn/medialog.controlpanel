@@ -14,7 +14,7 @@
         url_expr="string:${portal_url}/@@medialog_controlpanel"
         visible="True"
         i18n:attributes="title">
-            <permission>Manage portal</permission>
+        <permission>Manage portal</permission>
     </configlet>
 
 </object>

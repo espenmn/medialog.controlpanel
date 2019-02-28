@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1.3'
+version = '1.2'
 
 setup(name='medialog.controlpanel',
       version=version,
@@ -24,10 +24,7 @@ setup(name='medialog.controlpanel',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'setuptools',
-           'plone.app.registry',
-           'plone.directives.form',
-          # -*- Extra requirements: -*-
+          'plone.app.registry',
       ],
       entry_points="""
       # -*- Entry points: -*-
