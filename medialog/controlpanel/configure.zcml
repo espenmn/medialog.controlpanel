@@ -24,6 +24,13 @@
     class=".controlpanel.MedialogControlPanel"
     permission="cmf.ManagePortal" />
     
+    <!-- Subsite Control panel -->
+  <browser:page
+  	name="medialog_controlpanel"
+    for="collective.lineage.interfaces.IChildSite"
+    class=".controlpanel.MedialogControlPanel"
+    permission="cmf.ManagePortal" />
+    
   <browser:resource
     name="my_controlpanel_icon.png"
     file="my_controlpanel_icon.png"
