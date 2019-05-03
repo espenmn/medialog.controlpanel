@@ -64,12 +64,17 @@ class MedialogControlpanelSettingsEditForm(controlpanel.RegistryEditForm):
                               in registry.records.values())
 
         for name in interface_names:
+
             if not name:
                 continue
+
+            if not name.startswidth('medialog'):
+                pass
 
             interface = resolve(name)
             if IMedialogControlpanelSettingsProvider.providedBy(interface):
                 yield interface
+
 
     def updateFields(self):
         super(MedialogControlpanelSettingsEditForm, self).updateFields()
