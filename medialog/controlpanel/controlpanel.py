@@ -68,8 +68,8 @@ class MedialogControlpanelSettingsEditForm(controlpanel.RegistryEditForm):
             if not name:
                 continue
 
-            if not name.startswidth('medialog'):
-                pass
+            if not name.startswith('medialog'):
+                continue
 
             interface = resolve(name)
             if IMedialogControlpanelSettingsProvider.providedBy(interface):
