@@ -6,8 +6,7 @@ version = '1.4'
 setup(name='medialog.controlpanel',
       version=version,
       description="A pluggable control panel.",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description="Please read README and History for full info",
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
