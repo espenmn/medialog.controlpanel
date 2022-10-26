@@ -1,6 +1,15 @@
 Changelog
 =========
 
+
+1.4 (25.10.2022)
+-------------------
+
+- Added condition for installed lineage
+- Added uninstall profile
+
+
+
 1.4 (15.10.2021)
 -------------------
 
