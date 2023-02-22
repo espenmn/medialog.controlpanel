@@ -38,7 +38,7 @@
 
     <!-- Subsite Control panel -->
   <browser:page
-    zcml:condition="installed collective.lineage" />
+    zcml:condition="installed collective.lineage" 
   	name="medialog_controlpanel"
     for="collective.lineage.interfaces.IChildSite"
     class=".controlpanel.MedialogControlPanel"
