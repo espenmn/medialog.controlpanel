@@ -38,9 +38,9 @@
 
     <!-- Subsite Control panel -->
   <browser:page
-    zcml:condition="installed collective.lineage" 
-  	name="medialog_controlpanel"
-    for="collective.lineage.interfaces.IChildSite"
+    name="medialog_controlpanel"
+    zcml:condition="installed collective.lineage"
+  	for="collective.lineage.interfaces.IChildSite"
     class=".controlpanel.MedialogControlPanel"
     permission="cmf.ManagePortal" />
 
